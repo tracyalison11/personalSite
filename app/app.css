@@ -1,0 +1,190 @@
+/* app css stylesheet */
+
+
+@font-face {
+  font-family: 'fairytales';
+  src: url("fonts/fairy_tales-webfont.eot") format("embedded-opentype"),
+  url("fonts/fairy_tales-webfont.svg") format("svg"),
+  url("fonts/fairy_tales-webfont.ttf") format("truetype"),
+  url("fonts/fairy_tales-webfont.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'stump-closed';
+  src: url("fonts/Stump-closed.otf") format("otf"),
+  url("fonts/Stump-closed.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'stump-one';
+  src: url("fonts/Stump-one.otf") format("otf"),
+  url("fonts/Stump-one.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'stump-shadow';
+  src: url("fonts/Stump-shadow.otf") format("otf"),
+  url("fonts/Stump-shadow.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'stump-textured';
+  src: url("fonts/Stump-textured.otf") format("otf"),
+  url("fonts/Stump-textured.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amelia-script';
+  src: url("fonts/Amelia-Script.eot") format("eot"),
+  url("fonts/Amelia-Script.woff") format("woff"),
+  url("fonts/Amelia-Script.woff2") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'brixton-lt';
+  src: url("fonts/brixton-lt-webfont.eot") format("eot"),
+  url("fonts/brixton-lt-webfont.woff") format("woff"),
+  url("fonts/brixton-lt-webfont.woff2") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'brixton-outline';
+  src: url("fonts/brixton-outline-webfont.eot") format("eot"),
+  url("fonts/brixton-outline-webfont.woff") format("woff"),
+  url("fonts/brixton-outline-webfont.woff2") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'brixton-rg';
+  src: url("fonts/brixton-rg-webfont.eot") format("eot"),
+  url("fonts/brixton-rg-webfont.woff") format("woff"),
+  url("fonts/brixton-rg-webfont.woff2") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'grounday';
+  src: url("fonts/Grounday.eot") format("eot"),
+  url("fonts/Grounday.svg") format("svg"),
+  url("fonts/Grounday.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Bear_and_Loupe_bold';
+  src: url("fonts/Bear_and_loupe_bold.otf") format("otf"),
+  url("fonts/Bear_and_loupe_bold.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Bear_and_Loupe_regular';
+  src: url("fonts/Bear_and_loupe_regular.otf") format("otf"),
+  url("fonts/Bear_and_loupe_regular.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'toxine';
+  src: url("fonts/toxine-webfont.eot") format("eot"),
+  url("fonts/toxine-webfont.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'falco';
+  src: url("fonts/Falco_Black.otf") format("otf"),
+  url("fonts/Falco_Black.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Umbrella';
+  src: url("fonts/UmbrellaRegullar.eot") format("eot"),
+  url("fonts/UmbrellaRegullar.woff") format("woff"),
+  url("fonts/UmbrellaRegullar.svg") format("svg"),
+  url("fonts/UmbrellaRegullar.ttf") format("ttf");
+  font-weight: normal;
+}
+
+
+body {
+  background: #3498db;
+}
+
+.row-panel {
+  height: 7em;
+  background-color: #95E1D3;
+  border: white solid 3px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  text-align: center;
+  transition: all 0.75s;
+  cursor: pointer;
+}
+
+.row-panel:hover {
+  background-color: #EAFFD0;
+  transition: all 0.75s;
+}
+
+.row-panel p {
+  font-family: "falco", sans-serif;
+  font-size: 32px;
+  padding-top: 28px;
+}
+
+.name-header {
+  font-family: "falco", sans-serif;
+  color: #fff;
+  font-size: 7em;
+  text-align: center;
+}
+
+.myFace {
+  border-radius: 75%;
+  width: 110px;
+  height: 110px;
+  border: 6px solid #95E1D3;
+}
+
+#portrait-row {
+  position: relative;
+  bottom: 22px;
+}
+
+.center {
+  width: 105px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-panel {
+  background-color: #FFF;
+  border-radius: 3px;
+}
+
+.content-panel p {
+  font-size: 24px;
+  color: #000;
+}
+
+.content-panel {
+  margin-bottom: 20px;
+}
+
+#dog-pic {
+  height: 250px;
+  width: 200px;
+}
+
+
