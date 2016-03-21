@@ -162,7 +162,7 @@ body {
 }
 
 .center {
-  width: 105px;
+  width: 115px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -195,4 +195,17 @@ body {
   margin: 0 auto;
 }
 
+.social-icons ul {
+  padding: 0;
+}
+
+.social-icons li {
+  list-style-type: none;
+  display: inline;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+}
 
