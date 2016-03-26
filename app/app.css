@@ -115,9 +115,12 @@
   font-weight: normal;
 }
 
-
 body {
   background: #3498db;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .row-panel {
@@ -193,6 +196,10 @@ body {
 #dog-pics {
   width: 404px;
   margin: 0 auto;
+}
+
+.code-sample > ul > li{
+  list-style-type: none;
 }
 
 .social-icons ul {
