@@ -224,13 +224,27 @@ li {
   height: 35px;
 }
 
+@media (max-width: 500px) {
+  #dog-pics {
+    width: 205px;
+  }
+  .content-panel img {
+    height: 200px;
+    width: 200px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 400px) {
   #dog-pics {
     width: 205px;
   }
   .content-panel img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    display: block;
   }
   h3 {
     font-size: 18px;
